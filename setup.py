@@ -43,14 +43,14 @@ extensions = [
 
 
 setuptools.setup(
-    name             = 'keras-retinanet',
-    version          = '0.5.1',
-    description      = 'Keras implementation of RetinaNet object detection.',
-    url              = 'https://github.com/fizyr/keras-retinanet',
-    author           = 'Hans Gaiser',
-    author_email     = 'h.gaiser@fizyr.com',
-    maintainer       = 'Hans Gaiser',
-    maintainer_email = 'h.gaiser@fizyr.com',
+    name             = 'xmenu-keras-retinanet',
+    version          = '0.0.0',
+    description      = 'Modified anchor size Keras implementation of RetinaNet object detection.',
+    url              = 'https://github.com/MichaelStevan/xmenu_keras_retinanet',
+    author           = 'Michael Stevan',
+    author_email     = 'miguel@xtreme.ai',
+    maintainer       = 'Michael Stevan',
+    maintainer_email = 'miguel@xtreme.ai',
     cmdclass         = {'build_ext': BuildExtension},
     packages         = setuptools.find_packages(),
     install_requires = ['keras', 'keras-resnet==0.1.0', 'six', 'scipy', 'cython', 'Pillow', 'opencv-python', 'progressbar2'],
