@@ -47,6 +47,7 @@ setuptools.setup(
     version          = '0.0.0',
     description      = 'Modified anchor size Keras implementation of RetinaNet object detection.',
     url              = 'https://github.com/MichaelStevan/xmenu_keras_retinanet',
+    download_url     = 'https://github.com/MichaelStevan/xmenu-keras-retinanet/archive/v1.0.0-alpha.tar.gz',
     author           = 'Michael Stevan',
     author_email     = 'miguel@xtreme.ai',
     maintainer       = 'Michael Stevan',
