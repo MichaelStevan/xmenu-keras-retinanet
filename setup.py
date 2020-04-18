@@ -44,7 +44,7 @@ extensions = [
 
 setuptools.setup(
     name             = 'xmenu-keras-retinanet',
-    version          = '0.0.0',
+    version          = 'v1.0.0-alpha',
     description      = 'Modified anchor size Keras implementation of RetinaNet object detection.',
     url              = 'https://github.com/MichaelStevan/xmenu_keras_retinanet',
     download_url     = 'https://github.com/MichaelStevan/xmenu-keras-retinanet/archive/v1.0.0-alpha.tar.gz',
