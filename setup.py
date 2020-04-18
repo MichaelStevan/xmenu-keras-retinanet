@@ -36,8 +36,8 @@ class BuildExtension(setuptools.Command):
 
 extensions = [
     Extension(
-        'keras_retinanet.utils.compute_overlap',
-        ['keras_retinanet/utils/compute_overlap.pyx']
+        'xmenu_keras_retinanet.utils.compute_overlap',
+        ['xmenu_keras_retinanet/utils/compute_overlap.pyx']
     ),
 ]
 
@@ -57,10 +57,10 @@ setuptools.setup(
     install_requires = ['keras', 'keras-resnet==0.1.0', 'six', 'scipy', 'cython', 'Pillow', 'opencv-python', 'progressbar2'],
     entry_points     = {
         'console_scripts': [
-            'retinanet-train=keras_retinanet.bin.train:main',
-            'retinanet-evaluate=keras_retinanet.bin.evaluate:main',
-            'retinanet-debug=keras_retinanet.bin.debug:main',
-            'retinanet-convert-model=keras_retinanet.bin.convert_model:main',
+            'retinanet-train=xmenu_keras_retinanet.bin.train:main',
+            'retinanet-evaluate=xmenu_keras_retinanet.bin.evaluate:main',
+            'retinanet-debug=xmenu_keras_retinanet.bin.debug:main',
+            'retinanet-convert-model=xmenu_keras_retinanet.bin.convert_model:main',
         ],
     },
     ext_modules    = extensions,
